@@ -334,7 +334,7 @@ public class Grid
         if ( args.length == 1 )
         {
             Grid g1 = new Grid( args[0] );
-
+            
             System.out.println( "Computing Shortest Path: " );
             g1.computeShortestPaths( g1.UPPER_LEFT );
             g1.printPath( g1.LOWER_RIGHT );
